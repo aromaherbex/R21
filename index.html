@@ -473,8 +473,8 @@ body {
 
           <label for="destinataireModal">Destinataire :</label>
           <div class="checkbox-group">
-              <label><input type="checkbox" id="person1Modal" name="destinataire" value="person1"> Pointage</label>
-              <label><input type="checkbox" id="person2Modal" name="destinataire" value="person2"> Rendement</label>
+              <label><input type="checkbox" id="person1Modal" name="destinataire" value="person1"> AYOUB</label>
+              
           </div>
 
           <label for="messageModal">Message :</label>
@@ -505,9 +505,7 @@ body {
         if (document.getElementById("person1Modal").checked) {
             phoneNumbers.push("+212662781207"); // Numéro de téléphone pour la personne 1
         }
-        if (document.getElementById("person2Modal").checked) {
-            phoneNumbers.push("+212663715065"); // Numéro de téléphone pour la personne 2
-        }
+        
 
         var fullMessage = `Concernant la Ferme: ${finca} le: ${date} , le probleme a ete resolu (${message})`;
 
