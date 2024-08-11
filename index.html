@@ -391,26 +391,7 @@ body {
       
 	  
     }
-.wbtn {
-        position: fixed;
-        bottom: 130px;
-        right: 40px;
-        background-color: #1e3a8a;
-        border: none;
-        border-radius: 20px;
-        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
-        padding: 10px 20px;
-        cursor: pointer;
-        z-index: 1000;
-        transition: background-color 0.3s ease;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80px;
-        color: #ffffff;
-        font-weight: bold;
-        animation: summaryPulse 1s ease-in-out infinite;;
-    }
+
 </style>
 </head>
 <body> 
@@ -462,7 +443,7 @@ body {
 <div class="whatsapp-btn" onclick="openModal()">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2048px-WhatsApp.svg.png" alt="WhatsApp">
 </div>
-<div class="wbtn" onclick="RENDEMENT()">RENDEMENT</div>
+
 <!-- Modal -->
 <div id="myModal" class="modal">
   <div class="modal-content">
@@ -504,9 +485,7 @@ body {
   </div>
 </div>
   <script>
-	  function RENDEMENT() {
-      window.location.href = 'https://aromaherbex.github.io/F21/'; 
-    }
+	  
 	  // Open the modal
     function openModal() {
         document.getElementById("myModal").style.display = "block";
